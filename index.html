@@ -24,23 +24,26 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<img src="images/angularkc-logo.svg" width="50%" class="plain">
+				<section class="title">
+					<div>
+						<img src="images/angularkc-logo.svg" class="plain">
+					</div>
 					<h1>AngularKC</h1>
 				</section>
 				<section>
 					<h2>Thank you,</h2>
 					<img src="images/sponsors/Adaptive-Solutions-Group-logo.png" class="plain">
 					<!--<img src="images/sponsors/DI_Logo_Horizontal_4c.png" class="plain">-->
-					<img src="images/sponsors/Artisan-Technology-Group-Logo.png" class="plain">
+					<!-- <img src="images/sponsors/Artisan-Technology-Group-Logo.png" class="plain"> -->
+					<img src="images/sponsors/smg_fulllogo_slate.png" class="plain">
 				</section>
 				<section>
 					<h2>Follow Us On Social Media</h2>
-					<div style="display: flex; justify-content: space-evenly; align-items: center">
-						<img src="images/social/slack.png" class="plain" width="25%">
-						<img src="images/social/github.png" class="plain" width="25%">
-						<img src="images/social/meetup.png" class="plain" width="25%">
-						<img src="images/social/twitter.png" class="plain" width="25%">
+					<div class="social">
+						<img src="images/social/slack.png" class="plain" width="15%">
+						<img src="images/social/github.png" class="plain" width="15%">
+						<img src="images/social/meetup.png" class="plain" width="15%">
+						<img src="images/social/twitter.png" class="plain" width="15%">
 					</div>
 					<p>@angularkc</p>
 				</section>
@@ -55,6 +58,10 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				progress: false,
+				width: '100%',
+				height: '100%',
+				display: 'flex',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
