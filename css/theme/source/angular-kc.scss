@@ -37,6 +37,21 @@ section.has-dark-background {
 	}
 }
 
+.reveal .slides section.present {
+	flex-direction: column;
+	align-items: center;
+}
+
+section.title {
+	div {
+		width: 25%;
+	}
+
+}
+
+section div.social {
+	flex-direction: row;
+}
 
 
 
