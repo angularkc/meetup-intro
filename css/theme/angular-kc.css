@@ -6,6 +6,15 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   flex-direction: column;
   align-items: center; }
 
+.reveal section img.plain {
+  padding: 0 0 2rem 0; }
+
+.reveal section img.width-40 {
+  width: 40%; }
+
+.reveal section img.width-30 {
+  width: 30%; }
+
 section.title div {
   width: 25%; }
 
@@ -240,16 +249,7 @@ body {
 
 .reveal section img.plain {
   border: 0;
-  box-shadow: none;
-  padding: 0 0 2rem 0;
-}
-
-.reveal section img.width-40 {
-  width: 40%;
-}
-.reveal section img.width-30 {
-  width: 30%;
-}
+  box-shadow: none; }
 
 .reveal a img {
   -webkit-transition: all .15s linear;
